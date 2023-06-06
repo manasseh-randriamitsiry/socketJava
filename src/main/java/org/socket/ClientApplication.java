@@ -43,9 +43,9 @@ public class ClientApplication extends JFrame {
         add(new JScrollPane(table), BorderLayout.CENTER);
 
         // Établir la connexion à la base de donnée
-        String databaseName = "ljsa";
+        String databaseName = "socketjava";
         String databaseUser = "root";
-        String databasePassword = "123456789";
+        String databasePassword = "";
         String url = "jdbc:mysql://localhost/"+databaseName;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
